@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div class="bg-container">
+        <h1 class="heading">Travel Benifits</h1>
+        <p class="para">We are self-service data analytics software that lets you create
+            visually appealing dats visualization and insightful dashboards in minutes.</p>
+        <div class="card-container">
+            <div class="benifits-card">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/cheap-than-other-img.png" class="cheap-than-other-img" />
+                <h1 class="head">Cheap than Other</h1>
+                <p>Travels is cheaper than other travel agency</p>
+            </div>
+            <div class="benifits-card">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/secure-payment-img.png" class="cheap-than-other-img" />
+                <h1 class="head">Secure Payment</h1>
+                <p>Travels is cheaper than other travel agency</p>
+            </div>
+            <div class="benifits-card">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/best-offers-img.png" class="cheap-than-other-img" />
+                <h1 class="head">Best offers</h1>
+                <p>Travels is cheaper than other travel agency</p>
+            </div>
+            <div class="benifits-card">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/free-amenities-img.png" class="cheap-than-other-img" />
+                <h1 class="head">Free Amenities</h1>
+                <p>Travels is cheaper than other travel agency</p>
+            </div>
+            <div class="benifits-card">
+                <img src="https://assets.ccbp.in/frontend/intermediate-rwd/top-rated-img.png" class="cheap-than-other-img" />
+                <h1 class="head">Top Rated</h1>
+                <p>Travels is cheaper than other travel agency</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.heading {
+    color: #183b56;
+    font-family: "Roboto";
+}
+
+.para {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.benifits-card {
+    padding: 10px;
+}
+
+.cheap-than-other-img {
+    width: 50px;
+    height: 50px;
+}
+
+.head {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+P {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 10px;
+}
