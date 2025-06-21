@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="bg-container">
+        <h1 class="heading">Color Palette</h1>
+        <div class="color-container">
+            <div class="color-red">
+                <p>Red</p>
+                <p>#f87171</p>
+            </div>
+            <div class="color-orange">
+                <p>Orange</p>
+                <p>#fb923c</p>
+            </div>
+            <div class="color-amber">
+                <p>Amber</p>
+                <p>#fbbf24</p>
+            </div>
+            <div class="color-yellow">
+                <p>Yellow</p>
+                <p>#facc15</p>
+            </div>
+            <div class="color-lime">
+                <p>Lime</p>
+                <p>#facc15</p>
+            </div>
+            <div class="color-green">
+                <p>Green</p>
+                <p>#4ade80</p>
+            </div>
+            <div class="color-emerald">
+                <p>Emerald</p>
+                <p>#34d399</p>
+            </div>
+            <div class="color-cyan">
+                <p>Cyan</p>
+                <p>#22d3ee</p>
+            </div>
+            <div class="color-lightblue">
+                <p>Light Blue</p>
+                <p>#38bdf8</p>
+            </div>
+            <div class="color-blue">
+                <p>BLue</p>
+                <p>#60a5fa</p>
+            </div>
+            <div class="color-indigo">
+                <p>Indigo</p>
+                <p>#818cf8</p>
+            </div>
+            <div class="color-purple">
+                <p>Purple</p>
+                <p>#c084fc</p>
+            </div>
+            <div class="color-fuchisa">
+                <p>Fuchisa</p>
+                <p>#e879f9</p>
+            </div>
+            <div class="color-pink">
+                <p>Pink</p>
+                <p>#f472b6</p>
+            </div>
+            <div class="color-rose">
+                <p>Rose</p>
+                <p>#fb7185</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    color: #011e3f;
+    font-family: "Roboto";
+    font-size: 28px;
+}
+
+.color-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.color-red {
+    background-color: #f87171;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-orange {
+    background-color: #fb923c;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-amber {
+    background-color: #fbbf24;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-yellow {
+    background-color: #facc15;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-lime {
+    background-color: #a3e635;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-green {
+    background-color: #4ade80;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-emerald {
+    background-color: #34d399;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-cyan {
+    background-color: #22d3ee;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-lightblue {
+    background-color: #38bdf8;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-blue {
+    background-color: #60a5fa;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-indigo {
+    background-color: #818cf8;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-purple {
+    background-color: #c084fc;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-fuchisa {
+    background-color: #e879f9;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-pink {
+    background-color: #f472b6;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.color-rose {
+    background-color: #fb7185;
+    color: white;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
